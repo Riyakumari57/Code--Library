@@ -1,3 +1,4 @@
 # Codes-Library
 
-![simp_the_girl_code-vabf03sc1047_hires1](https://user-images.githubusercontent.com/65845230/129858790-fea97119-081e-47cb-8362-3ecc77f9e5ec.jpg)
+![simp_the_girl_code-vabf03sc1047_hires1 (2)](https://user-images.githubusercontent.com/65845230/129858958-87d64ca0-c5e8-408c-9a5f-3079f8796c11.jpg)
+
