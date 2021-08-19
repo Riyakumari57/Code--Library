@@ -1,24 +1,29 @@
 //Largest Sum Contiguous Subarray
 //kadanne's algorith
+//kadanne's algorith
+//Maximum Subarray sum
 #include<bits/stdc++.h>
 using namespace std;
 void solve(int a[] , int n)
 {
-     int sum = a[0];
-     int maxx = INT_MIN;
-     for(int i=1;i<n;i++)
+     int sum = 0;
+       int maxx = INT_MIN;
+     for(int i=0;i<n;i++)
      {
-           if(sum+a[i]<0)
+           cout<<" sum  is "<<sum<<endl;
+         cout<<"maxx is "<<maxx<<endl;
+           sum+=a[i];
+           if(maxx<sum)
+            {
+             maxx = sum;
+            }
+           if(sum<0)
            {
                sum = 0;
            }
-           else
-           {
-               sum+=a[i];
-                 maxx = max(sum,maxx);
-           }
+          
      }
-     cout<<maxx<<endl;
+    cout<<maxx<<endl;
 }
 int main()
 {
