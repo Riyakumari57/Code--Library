@@ -6,8 +6,6 @@ const int N = 100000;
 std::vector<int> adj[N];
 
 bool visited[N];
-
-int cnt = 0;
 bool checkForCycle(int node, int parent)
 {
     visited[node] = true;
@@ -34,6 +32,7 @@ bool isCycle(int n, vector<int> adj[])
                 return true;
         }
     }
+      return false; 
 }
     int main()
     {
