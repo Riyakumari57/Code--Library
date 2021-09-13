@@ -22,6 +22,7 @@ bool checkForCycle(int node, int parent)
 
     return false;
 }
+
 bool isCycle(int n, vector<int> adj[])
 {
     for (int i = 0; i < n; i++)
