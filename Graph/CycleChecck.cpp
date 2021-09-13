@@ -52,7 +52,7 @@ bool isCycle(int n, vector<int> adj[])
         }
         bool ans = isCycle(n, adj);
         if (ans)
-            cout << "1\n";
+            cout << "1\n ";
         else
             cout << "0\n";
 
